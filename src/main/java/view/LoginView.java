@@ -7,12 +7,13 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class LoginView{
+public class LoginView {
     private StackPane stackPane;
     private Scene scene;
     private Button button;
     private Label label;
     private Image icon;
+
     public void getLoginView(Stage stage) {
         stackPane = new StackPane();
         icon = new Image(getClass().getResourceAsStream("imageView/shopIcon.png"));
